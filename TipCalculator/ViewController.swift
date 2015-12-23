@@ -25,6 +25,8 @@ class ViewController: UIViewController {
         
         tipControl.selectedSegmentIndex = intValue
         
+        billField.becomeFirstResponder()
+        
     }
     
     override func viewDidLoad() {
